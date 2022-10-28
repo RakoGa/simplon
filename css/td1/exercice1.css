@@ -1,0 +1,35 @@
+body {
+    background-color: #FC0;
+}
+
+h1 {
+    color: red;
+    font-style: italic;
+}
+
+p {
+    text-justify: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: grey;
+}
+
+a {
+    color: green;
+}
+
+li b{
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+}
+
+b {
+    color: red;
+}
+

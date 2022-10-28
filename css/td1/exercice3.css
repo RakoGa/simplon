@@ -1,0 +1,43 @@
+body {
+    background-color: aqua;
+}
+
+h4 {
+    background-color: purple;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    color: white
+}
+
+/* horizontal */
+menu {
+    background-color: darkslategray;
+    text-align: center;
+    list-style-type: none;
+    display: block;
+    overflow: hidden;    
+}
+
+div {
+    background-color: orange;
+    text-align: center;
+    padding: 1em;
+}
+
+article {
+    background-color: beige;
+    border-style: dotted;    
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
