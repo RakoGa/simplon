@@ -1,0 +1,25 @@
+recherches:
+définition algorithmique
+qu'est-ce qu'un algorithme
+structure algorithme
+affectation, lecture, affichage
+
+-------------
+-résoudre des problèmes en mettant en oeuvre des suites d'opérations 
+suite finie et non ambiguë d'instructions et d'opérations permettant de résoudre des problèmes
+"non ambiguë": actions clairement définies
+
+-données fournies en entrées qui sont traitées pour ensuite produire un résultat en sortie
+ensemble de méthodes utilisées par un ordinateur pour résoudre un problème
+
+-début, affectation des données, traitement, affichage/transfert données au programme
+https://apcpedagogie.com/structure-generale-dun-algorithme/
+
+-affectation: assigner/attribuer une valeur à variable
+nomVariable <- valeur
+lecture: saisie d'une donnée par l'utilisateur pendant l'execution de l'algorithme
+lire(variable)
+affichage: après que les données sont traitées (sur l'interface ou dans la console avec une instruction print)
+ecrire(variable)/afficher(variable)
+
+

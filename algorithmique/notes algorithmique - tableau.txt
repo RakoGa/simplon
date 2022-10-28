@@ -1,0 +1,10 @@
+ un tableau est une structure de données qui sert à organiser des informations
+nomdutableau [valdebut..valfin] : Tableau de type
+accéder à valeur: tableau[index]
+montableau est du type LISTE
+montableau[index]
+quel indice départ algobox?
+
+une chaîne de caractères est une suite ordonnée de caractères
+un peu comme un tableau de caractères
+string[i] / string.charAt(i)
