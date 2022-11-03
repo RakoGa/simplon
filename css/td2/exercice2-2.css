@@ -23,11 +23,11 @@ footer {
     background-color: orangered;
 }
 
-.item1 { grid-area: header; }
-.item2 { grid-area: nav; }
-.item3 { grid-area: section; }
-.item4 { grid-area: aside; }
-.item5 { grid-area: footer; }
+header { grid-area: header; }
+nav { grid-area: nav; }
+section { grid-area: section; }
+aside { grid-area: aside; }
+footer { grid-area: footer; }
 
 .grid-container {
     display: grid;
@@ -37,10 +37,10 @@ footer {
     'footer footer footer footer footer footer';
 }
 
-.item1, .item5 {
+header, footer {
     height: 150px;
 }
 
-.item2, .item3, .item4 {
+nav, section, aside {
     height: 500px;
 }
