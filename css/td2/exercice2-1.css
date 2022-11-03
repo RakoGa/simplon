@@ -1,0 +1,33 @@
+body {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: greenyellow;
+}
+
+nav {
+    background-color: aqua;
+}
+
+section {
+    background-color: darkorchid;
+}
+
+aside {
+    background-color: goldenrod;
+}
+
+footer {
+    background-color: orangered;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item {
+    height: 200px;
+}

@@ -1,0 +1,46 @@
+body {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: greenyellow;
+}
+
+nav {
+    background-color: aqua;
+}
+
+section {
+    background-color: darkorchid;
+}
+
+aside {
+    background-color: goldenrod;
+}
+
+footer {
+    background-color: orangered;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: nav; }
+.item3 { grid-area: section; }
+.item4 { grid-area: aside; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'nav section section section section aside'
+    'footer footer footer footer footer footer';
+}
+
+.item1, .item5 {
+    height: 150px;
+}
+
+.item2, .item3, .item4 {
+    height: 500px;
+}
