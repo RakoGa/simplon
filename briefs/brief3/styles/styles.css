@@ -13,4 +13,5 @@ nav {
 
 nav > * {
     display: inline;
+    color: white;
 }
