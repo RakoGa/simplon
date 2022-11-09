@@ -6,10 +6,19 @@ body {
     font-family: 'Cute', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-nav {
+#topNav {
     background-color: pink;
     text-align: center;
     overflow: hidden;
+    font-size: 1.3em;
+    color: white;
+}
+
+#topNav > p {
+    float: left;
+    margin-top: 0;
+    font-size: 1.5em;
+    margin-bottom: 0;
 }
 
 nav > * {
@@ -18,11 +27,30 @@ nav > * {
     text-decoration: none;
 }
 
-.menuIcon {
+#menuIcon {
     filter: brightness(0) invert(1);
     width: auto;
     height: auto;
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 40px;
+    max-height: 40px;
     float: right;
+    padding-right: 1%;
 }
+
+/* #menuIcon:focus {
+    
+} */
+
+@media only screen and (min-width: 850px) {
+    #menuIcon {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    nav {
+        display: none;
+    }
+}
+
+
