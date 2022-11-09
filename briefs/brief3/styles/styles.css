@@ -49,8 +49,16 @@ nav > * {
 
 @media only screen and (max-width: 1000px) {
     nav {
-        display: none;
+        /* display: none; */
+        transform: translate(-100%);
+        z-index: 1;
     }
+
+    #menuIconButton:focus ~ nav {
+        transform: translate(0%);
+        transition: transform 0.5s cubic-bezier(0.9, 0, 0.1, 1);
+    }
+    /* https://schnerring.net/blog/create-a-modern-css-only-fold-out-burger-menu/ */
 }
 
 
