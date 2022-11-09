@@ -9,9 +9,20 @@ body {
 nav {
     background-color: pink;
     text-align: center;
+    overflow: hidden;
 }
 
 nav > * {
     display: inline;
     color: white;
+    text-decoration: none;
+}
+
+.menuIcon {
+    filter: brightness(0) invert(1);
+    width: auto;
+    height: auto;
+    max-width: 30px;
+    max-height: 30px;
+    float: right;
 }

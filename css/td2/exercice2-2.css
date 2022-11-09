@@ -5,29 +5,28 @@ body {
 
 header {
     background-color: greenyellow;
+    grid-area: header;
 }
 
 nav {
     background-color: aqua;
+    grid-area: nav;
 }
 
 section {
     background-color: darkorchid;
+    grid-area: section;
 }
 
 aside {
     background-color: goldenrod;
+    grid-area: aside;
 }
 
 footer {
     background-color: orangered;
+    grid-area: footer;
 }
-
-header { grid-area: header; }
-nav { grid-area: nav; }
-section { grid-area: section; }
-aside { grid-area: aside; }
-footer { grid-area: footer; }
 
 .grid-container {
     display: grid;

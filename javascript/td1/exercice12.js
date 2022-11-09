@@ -1,14 +1,29 @@
-// https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces
+function generateTable() {
+    const tbl = document.createElement("table");
+    const tblBody = document.createElement("tbody");
 
-// create table
+    for (let i = 1; i <= 10; i++) {
+        const row = document.createElement("tr");
 
-// header rows/columns
-
-for (let i = 0; i <= 10; i++) {
-    // create column
-    // if 0 => header
-    for (let j = 0; i <= 10; j++) {
-        // create and fill cell
-        // if 0 => header
+        for (let j = 1; j <= 10; j++) {
+            const cell = document.createElement("td");   
+            // if (i == 0 && j != 0) {
+            //     const cellText = document.createTextNode(j);
+            // } else if (i != 0 && j == 0) {
+            //     const cellText = document.createTextNode(i);
+            // } else if (i != 0 && j != 0) {
+            //     const cellText = document.createTextNode(i*j);
+            // } else {
+            //     const cellText = document.createTextNode("");
+            // }
+            const cellText = document.createTextNode(i*j);
+            cell.appendChild(cellText);
+            row.appendChild(cell);
+        }
+        tblBody.appendChild(row);
     }
+
+    tbl.appendChild(tblBody);
+    document.body.appendChild(tbl);
+    tbl.setAttribute("border", "1");
 }
