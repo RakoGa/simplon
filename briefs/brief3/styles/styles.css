@@ -37,6 +37,16 @@ nav > * {
     padding-right: 1%;
 }
 
+#mainContent {
+    width: 100%;
+}
+
+#imgContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 /* #menuIcon:focus {
     
 } */

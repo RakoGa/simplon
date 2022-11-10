@@ -1,8 +1,5 @@
 let input = prompt("Saisissez un nombre de secondes");
-let hours;
-let minutes;
-let seconds;
-let rem;
+let hours, minutes, seconds, rem;
 
 hours = Math.floor(input / 3600);
 rem = input % 3600;

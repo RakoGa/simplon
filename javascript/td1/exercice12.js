@@ -2,21 +2,24 @@ function generateTable() {
     const tbl = document.createElement("table");
     const tblBody = document.createElement("tbody");
 
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 0; i <= 10; i++) {
         const row = document.createElement("tr");
 
-        for (let j = 1; j <= 10; j++) {
+        for (let j = 0; j <= 10; j++) {
             const cell = document.createElement("td");   
-            // if (i == 0 && j != 0) {
-            //     const cellText = document.createTextNode(j);
-            // } else if (i != 0 && j == 0) {
-            //     const cellText = document.createTextNode(i);
-            // } else if (i != 0 && j != 0) {
-            //     const cellText = document.createTextNode(i*j);
-            // } else {
-            //     const cellText = document.createTextNode("");
-            // }
-            const cellText = document.createTextNode(i*j);
+            let data;
+
+            if (i == 0 && j != 0) {
+                data = j ;
+            } else if (i != 0 && j == 0) {
+                data = i;
+            } else if (i != 0 && j != 0) {
+                data = i*j;
+            } else {
+                data = "x";
+            }
+            
+            const cellText = document.createTextNode(data);
             cell.appendChild(cellText);
             row.appendChild(cell);
         }
