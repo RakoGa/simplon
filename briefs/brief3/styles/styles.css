@@ -79,8 +79,7 @@ h3 {
 #imgContainer {
     position: relative;
     text-align: center;
-    color: white;
-    font-size: 2vw;
+    color: white;    
 }
 
 #artistsAnchor {
@@ -146,6 +145,10 @@ article:hover {
         grid-template-areas: 
         'artist1 artist2 artist3';
     }
+
+    #imgContainer {
+        font-size: 2.5em;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -163,6 +166,10 @@ article:hover {
     .grid-container {
         display: grid;
         grid-template-columns: auto auto;
+    }
+
+    #imgContainer {
+        font-size: 120%
     }
 }
 
