@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: 'Cute', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: linear-gradient(#FFC0CB, #DAD2F3);
+    background: linear-gradient(#EC7699, #DAD2F3);
 }
 
 #topNav {
@@ -72,6 +72,11 @@ h3 {
     width: 100%;
 }
 
+.center-artist {
+    display: flex;
+    justify-content: center;
+}
+
 #radio {
     text-align: center;
 }
@@ -88,6 +93,14 @@ h3 {
     background-color: violet;
     border-radius: 20px;
     padding: 1%;
+}
+
+#artists p {
+    font-size: 2em;
+}
+
+#artists img, #artistPfp {
+    border-radius: 100%;
 }
 
 #elemsOverImg {
@@ -116,34 +129,58 @@ article:hover {
     transition: all 0.5s ease;
 }
 
-#artist1 {
-    grid-area: artist1;
+.home-grid-container a {
+    text-decoration: none;
 }
 
-#artist2 {
-    grid-area: artist2;
+#artistPfp {
+    grid-area: artistPfp;
 }
 
-#artist3 {
-    grid-area: artist3;
+#artistName {
+    grid-area: artistName;
+    font-size: 2.2em;
 }
 
+#artistInfo {
+    grid-area: artistInfo;
+    list-style: none;
+}
 
+#artistBio {
+    grid-area: artistBio;
+}
 
-/* #menuIcon:focus {
-    
-} */
+.artist-grid-container {
+    border-radius: 25px;
+    border: 4px solid #ffedff;
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-items: center;
+    font-size: 1.5em;
+}
+
 
 @media only screen and (min-width: 1000px) {
     #menuIcon {
         display: none;
     }
 
-    .grid-container {
+    .home-grid-container {
         display: grid;
         grid-gap: 20px;
         grid-template-areas: 
-        'artist1 artist2 artist3';
+        'auto auto auto';
+    }
+
+    .artist-grid-container {
+        display: grid;
+        grid-template-areas: 
+        'artistName artistName '
+        'artistPfp artistInfo'
+        'artistBio artistBio';
+        
     }
 
     #imgContainer {
@@ -163,9 +200,15 @@ article:hover {
     }
     /* https://schnerring.net/blog/create-a-modern-css-only-fold-out-burger-menu/ */
 
-    .grid-container {
+    .home-grid-container {
         display: grid;
         grid-template-columns: auto auto;
+    }
+
+    #artistPfp, #artistName {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     #imgContainer {
