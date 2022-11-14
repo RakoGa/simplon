@@ -27,6 +27,7 @@ footer {
     width: 100%;
     height: 5%;
     color: pink;
+    position: relative;
 }
 
 #topNav > p {
@@ -70,6 +71,7 @@ h3 {
 #mainContent {
     margin-top: 30px;
     width: 100%;
+    color: #3a243b;
 }
 
 .center-artist {
@@ -145,6 +147,7 @@ article:hover {
 #artistInfo {
     grid-area: artistInfo;
     list-style: none;
+    /* text-align: center; */
 }
 
 #artistBio {
@@ -155,10 +158,12 @@ article:hover {
     border-radius: 25px;
     border: 4px solid #ffedff;
     width: 50%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    padding: 1%;
     justify-items: center;
     font-size: 1.5em;
+    color: #3a243b;
 }
 
 
