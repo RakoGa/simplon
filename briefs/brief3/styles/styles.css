@@ -40,6 +40,7 @@ footer {
 nav > * {
     display: inline;
     color: white;
+    font-size: 1.3em;
     text-decoration: none;
 }
 
@@ -62,6 +63,8 @@ h2 {
     font-size: 2em;
     width: auto;
     text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 h3 {
@@ -124,15 +127,20 @@ article {
     margin-right: 3px;
     text-align: center;
     filter: brightness(100%);
+    background: rgba(0, 0, 0, 0);
+    transition: all 0.5s ease;
+
 }
 
 article:hover {
     filter: brightness(70%);
+    background: rgba(0, 0, 0, 0.3);
     transition: all 0.5s ease;
 }
 
 .home-grid-container a {
     text-decoration: none;
+    color: #3a243b;
 }
 
 #artistPfp {
@@ -166,6 +174,15 @@ article:hover {
     color: #3a243b;
 }
 
+.news-grid-container {
+    grid-gap: 20px;
+    padding: 1%;
+}
+
+.news-grid-container a {
+    border: 4px solid #ffedff;
+}
+
 
 @media only screen and (min-width: 1000px) {
     #menuIcon {
@@ -190,6 +207,11 @@ article:hover {
 
     #imgContainer {
         font-size: 2.5em;
+    }
+
+    .news-grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
     }
 }
 
@@ -218,6 +240,11 @@ article:hover {
 
     #imgContainer {
         font-size: 120%
+    }
+
+    .news-grid-container {
+        display: grid;
+        grid-template-columns: auto;
     }
 }
 
