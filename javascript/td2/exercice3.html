@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="exercice3.js"></script>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Command</legend>
+
+            <h3>Liste des produits</h3>
+            <input type="radio" name="produit" id="p1" value="20">
+            <label for="p1">Pull</label>
+            <input type="radio" name="produit" id="p2" value="30">
+            <label for="p2">Pantalon</label>
+            <input type="radio" name="produit" id="p3" value="40">
+            <label for="p3">Chemise</label>
+
+            <h3>Le nombre des pièces achetées</h3>
+            <input type="number" name="nPieces" id="nPieces">
+
+            <h3>Remises</h3>
+            <input type="radio" name="remise" id="r1" value="1.05">
+            <label for="r1">5%</label>
+            <input type="radio" name="remise" id="r2" value="1.02">
+            <label for="r2">2%</label>
+            <input type="radio" name="remise" id="r3" value="1.1">
+            <label for="r3">10%</label>
+
+            <br><br>
+
+            <input type="button" value="Calculer" onclick="calculRemise()">
+
+            <h3>Le total de la commande est</h3>
+            <p id="resultat"></p>
+        </fieldset>
+    </form>
+</body>
+</html>
