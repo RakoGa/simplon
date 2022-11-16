@@ -79,6 +79,10 @@ body {
     background-color: #e33367;
 }
 
+#selected {
+    background-color: #e33367;
+}
+
 .artistsList:hover .dropdown {
     display: block;
 }
@@ -119,6 +123,10 @@ h2 {
 
 h3 {
     font-size: 1.8em;
+}
+
+li {
+    list-style-type: none;
 }
 
 #mainContent {
@@ -266,8 +274,22 @@ article:active {
     padding: 2%;
 }
 
+.news-grid-container ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.news-grid-container h2 {
+    background-color: #8aabef;
+    font-size: 1.5em;
+}
+
 .news-grid-container img, .news-grid-container iframe {
     border-radius: 10px;
+}
+
+#macMillerVid {
+    font-size: 1.7em;
 }
 
 #backToTop {
