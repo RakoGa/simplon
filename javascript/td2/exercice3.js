@@ -5,16 +5,12 @@ function calculRemise(){
 
     for (let i = 0; i < radioProduit.length; i++) {
         if (radioProduit[i].checked) {
-            prixProduit = radioRemise[i].value;
+            prixProduit = radioProduit[i].value;
             break;
         }
     }
 
-    alert(prixProduit);
-
-    nPieces = document.getElementById("nPieces");
-
-    alert(nPieces);
+    nPieces = document.getElementById("nPieces").value;
 
     for (let i = 0; i < radioRemise.length; i++) {
         if (radioRemise[i].checked) {
@@ -23,9 +19,6 @@ function calculRemise(){
         }
     }
 
-    alert(remise);
-
     total = prixProduit * nPieces * remise;
-
     document.getElementById("resultat").innerHTML = total;
 }

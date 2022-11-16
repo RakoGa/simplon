@@ -9,11 +9,22 @@
 </head>
 <body>
     <div id="topNav">
-        <p>NOM</p>
-        <nav>            
-            <a href="accueil.html">Accueil</a>
-        </nav>
-        <a href="#" id="menuIconButton"><img src="../img/menu_icon2.png" alt="Bouton menu" id="menuIcon"></a>
+        <div class="logo">Le monde de la musique</div>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle">
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <div class="menu">
+                <li><a href="accueil.html">Accueil</a></li>
+                <li class="artistsList">
+                    <a href="#">Artistes</a>
+                    <ul class="dropdown">
+                        <li><a href="stromae.html">Stromae</a></li>
+                        <li><a href="yoasobi.html">YOASOBI</a></li>
+                        <li><a href="billie_eilish.html">Billie Eilish</a></li>
+                    </ul>
+                </li>
+            </div>
+        </ul>
     </div>
 
     <section id="mainContent">
@@ -108,7 +119,7 @@
 
         <br>
 
-        <a href="#mainContent" id="backToTop">↑Retour en haut↑</a>
+        <a href="#topNav" id="backToTop">↑Retour en haut↑</a>
     </section>
 
     <footer>

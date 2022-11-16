@@ -12,15 +12,85 @@ body {
 }
 
 #topNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
     background-color: pink;
-    text-align: center;
-    /* overflow: hidden; */
-    font-size: 1.3em;
     color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
+}
+
+#topNav li {
+    list-style-type: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #e96088;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+.artistsList {
+    position: relative; 
+}
+
+.dropdown {
+    background-color: #e96088;
+    padding: 1em 0;
+    position: absolute;
+    transform: translate(-60%, -5%);
+    display: none;
+    border-radius: 8px;
+    top: 35px;
     z-index: 1;
+}
+
+.dropdown li + li {
+    margin-top: 10px;
+}
+
+.dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+
+.dropdown li:hover {
+    background-color: #e33367;
+}
+
+.artistsList:hover .dropdown {
+    display: block;
+}
+
+input[type=checkbox]{
+    display: none;
+} 
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
 }
 
 footer {
@@ -32,30 +102,6 @@ footer {
     height: 20px;
     color: pink;
     position: fixed;
-}
-
-#topNav > p {
-    float: left;
-    margin-top: 0;
-    font-size: 1.5em;
-    margin-bottom: 0;
-}
-
-nav > * {
-    display: inline;
-    color: white;
-    font-size: 1.3em;
-    text-decoration: none;
-}
-
-#menuIcon {
-    filter: brightness(0) invert(1);
-    width: auto;
-    height: auto;
-    max-width: 40px;
-    max-height: 40px;
-    float: right;
-    padding-right: 1%;
 }
 
 h2 {
@@ -94,7 +140,8 @@ h3 {
 #imgContainer {
     position: relative;
     text-align: center;
-    color: white;    
+    color: white;   
+    margin-top: -30px; 
 }
 
 #artistsAnchor {
@@ -115,10 +162,11 @@ h3 {
 
 #elemsOverImg {
     position: absolute;
+    width: 75%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     padding: 1%;
 }
 
@@ -140,9 +188,13 @@ article {
 }
 
 article:hover {
-    filter: brightness(70%);
+    filter: brightness(90%);
     background: rgba(0, 0, 0, 0.3);
     transition: all 0.5s ease;
+}
+
+article:active {
+    border: 4px solid #a1ffff;
 }
 
 .home-grid-container a {
@@ -163,7 +215,6 @@ article:hover {
 #artistInfo {
     grid-area: artistInfo;
     list-style: none;
-    /* text-align: center; */
 }
 
 #artistBio {
@@ -232,10 +283,6 @@ article:hover {
 }
 
 @media only screen and (min-width: 1000px) {
-    #menuIcon {
-        display: none;
-    }
-
     .home-grid-container {
         display: grid;
         grid-gap: 20px;
@@ -248,8 +295,7 @@ article:hover {
         grid-template-areas: 
         'artistName artistName '
         'artistPfp artistInfo'
-        'artistBio artistBio';
-        
+        'artistBio artistBio';        
     }
 
     #imgContainer {
@@ -263,17 +309,6 @@ article:hover {
 }
 
 @media only screen and (max-width: 1000px) {
-    nav {
-        /* display: none; */
-        transform: translate(-100%);
-    }
-
-    #menuIconButton:focus ~ nav {
-        transform: translate(0%);
-        transition: transform 0.5s cubic-bezier(0.9, 0, 0.1, 1);
-    }
-    /* https://schnerring.net/blog/create-a-modern-css-only-fold-out-burger-menu/ */
-
     .home-grid-container {
         display: grid;
         grid-template-columns: auto auto;        
@@ -294,7 +329,7 @@ article:hover {
     }
 
     #imgContainer {
-        font-size: 120%
+        font-size: 1.7em
     }
 
     .news-grid-container {
@@ -307,4 +342,59 @@ article:hover {
     }
 }
 
+@media only screen and (max-width: 800px) {
+    #imgContainer {
+        font-size: 120%;
+    }
+}
 
+@media only screen and (max-width: 768px) {
+    .menu { 
+        display:none;
+        position: absolute;
+        background-color:#e96088;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+        z-index: 1;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color:#e33367;
+        transition: 0.3s ease;
+    }
+
+    .menu li + li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .dropdown {
+        left: 50%;
+        top: 30px;
+        transform: translateX(1%);
+    }
+
+    .dropdown li:hover {
+        background-color: #e33367;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .news-grid-container {
+        margin: 2%;
+    }
+
+    .news-grid-container img, .news-grid-container iframe {
+        width: 80%;
+    }
+}
