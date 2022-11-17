@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="exercice5.js"></script>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <h1>QCM</h1>
+
+            <h2>Q1</h2>
+            <input type="radio" name="q1" id="q1a">
+            <label for="q1a">a)</label>
+            <input type="radio" name="q1" id="q1b">
+            <label for="q1b">b)</label>
+            <input type="radio" name="q1" id="q1c">
+            <label for="q1c">c)</label>
+            <input type="radio" name="q1" id="q1d">
+            <label for="q1d">d)</label>
+
+            <br><br>
+            
+            <h2>Q2</h2>
+            <input type="radio" name="q2" id="q2a">
+            <label for="q2a">a)</label>
+            <input type="radio" name="q2" id="q2b">
+            <label for="q2b">b)</label>
+            <input type="radio" name="q2" id="q2c">
+            <label for="q2c">c)</label>
+            <input type="radio" name="q2" id="q2d">
+            <label for="q2d">d)</label>
+
+            <br><br>
+
+            <h2>Q3</h2>
+            <select name="q3" id="q3" size="4">
+                <option value="q3a">a)</option>
+                <option value="q3b">b)</option>
+                <option value="q3c">c)</option>
+                <option value="q3d">d)</option>
+            </select>
+
+            <!-- réponses
+            q1 a
+            q2 c
+            q3 d -->
+
+            <p>Le nombre de réponses correctes est:</p>
+            <input type="button" value="Score" onclick="calculer()">
+            <input type="text" name="score" id="score" disabled>
+            <button type="reset">Annuler</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
