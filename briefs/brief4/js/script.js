@@ -169,7 +169,6 @@ function exercice10() {
     let t = parseInt(document.getElementById("taille").value);
     let a = parseInt(document.getElementById("age").value);
     let s = document.getElementById("sexe").value;
-    console.log(t);
 
     if (isNaN(t) || isNaN(a) || ((s != "homme") && (s != "femme"))) {
         alert("Vous n'avez pas bien rempli tous les champs");
@@ -207,19 +206,19 @@ function exercice12() {
             let cell = document.createElement("td");   
             let data;
 
-            if (i == 0 && j != 0) {
+            if (i == 0 && j == 0) {
+                cell.setAttribute("style", "font-weight: bold");
+                data = "x";
+            } else if (i == 0 && j != 0) {
                 cell.setAttribute("style", "font-weight: bold");
                 data = j ;
             } else if (i != 0 && j == 0) {
                 cell.setAttribute("style", "font-weight: bold");
                 data = i;
-            } else if (i != 0 && j != 0) {
-                data = i*j;
             } else {
-                cell.setAttribute("style", "font-weight: bold");
-                data = "x";
+                data = i*j;
             }
-            
+
             let cellText = document.createTextNode(data);
             cell.appendChild(cellText);
             row.appendChild(cell);
