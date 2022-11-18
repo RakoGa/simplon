@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="exercice4.js"></script>
+    <style>
+        html {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        #images {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+        }
+
+        #images img {
+            margin: 2px;
+            border: 3px solid #D3D3D3;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Déplacement d'images</h1>
+    <div id="images">
+        <img src="img/daph.jpg" alt="" width="200px" height="200px" onclick="select(this)">
+        <img src="img/muniSit.png" alt="" width="200px" height="200px" onclick="select(this)">
+        <img src="img/leelah.jpg" alt="" width="200px" height="200px" onclick="select(this)">
+        <img src="img/miku.jpeg" alt="" width="200px" height="200px" onclick="select(this)">
+    </div>
+    <img src="img/up-arrow.png" alt="" onclick="moveUp()">
+    <img src="img/down-arrow.png" alt="" onclick="moveDown()">
+
+</body>
+</html>

@@ -13,10 +13,21 @@ ul {
 
 li a {
     text-decoration: none;
+    color: grey;
 }
 
-/* border-left somewhere lole */
+#enonce {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    background-color: #ededed;
+    padding: 5px;
+}
 
+#enonce, #corrige {
+    border-left: 5px solid #66cc00;
+    border-radius: 5px;
+}
+
+/* menu accordéon */
 .accordion {
     background-color: #eee;
     color: #444;
@@ -41,6 +52,7 @@ li a {
     overflow: hidden;
 }
 
+/* grid/disposition */
 header {grid-area: header;}
 #sideMenu {grid-area: nav;}
 #mainContent {grid-area: exo;}
