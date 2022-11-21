@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="../js/script.js"></script>
+</head>
+<body onload="init()">
+    <div class="grid-container">
+
+      <header>
+        <div class="gallery">
+          <a href="../pages/pagedaccueil.html"> <img src="../img/SIMPLON_Logo_GRENOBLE_RougeNoir-RVB.png" alt="logo"> </a> 
+        </div>
+        <centre><h1>Bienvenue Dans Le Monde js</h1></centre>    
+    </header>
+    
+        <nav id="sideMenu">
+            <!-- remplacer le href de la page actuelle par # -->
+            <!-- éventuellement le laisser en surbrillance dans le css -->
+            <button class="accordion">Maths</button>
+            <div class="panel">
+              <ul class="exercices">
+                <li><a href="#">Exercice 2</a></li>
+                <li><a href="exercice4.html">Exercice 4</a></li>
+                <li><a href="exercice7.html">Exercice 7</a></li>
+                <li><a href="exercice8.html">Exercice 8</a></li>
+                <li><a href="exercice9.html">Exercice 9</a></li>
+                <li><a href="exercice10.html">Exercice 10</a></li>
+                <li><a href="exercice11.html">Exercice 11</a></li>
+                <li><a href="exercice12.html">Exercice 12</a></li>
+              </ul>
+            </div>
+      
+            <button class="accordion">String</button>
+            <div class="panel">
+              <ul class="exercices">
+                <li><a href="exercice1.html">Exercice 1</a></li>
+                <li><a href="exercice3.html">Exercice 3</a></li>
+                <li><a href="exercice5.html">Exercice 5</a></li>
+              </ul>
+            </div>
+      
+            <button class="accordion">Date</button>
+            <div class="panel">
+              <ul id="exercices">
+                <li><a href="exercice6.html">Exercice 6</a></li>
+              </ul>
+            </div>
+      
+            <button class="accordion">Objet</button>
+            <div class="panel">
+              <ul id="exercices">
+                <li><a href="exercice13.html">Exercice 13</a></li>
+              </ul>
+            </div>
+        </nav>
+    
+        <!-- Changer ici pour chaque exercice -->
+        <!-- Déplacer la div output selon les besoins -->
+        <section id="mainContent" class="main-container">    
+           <h2>Exercice 02: Calcul d'un prix TTC</h2> 
+
+           <h3>&nbsp;&nbsp;&nbsp;Enoncé</h3>
+           <p id="enonce">
+            Ecrire un script permettant d’afficher le prix TTC en introduisant le prix Hors taxe (variable) et en fixant le taux TVA (constante) à 18.6 %.
+           </p>
+    
+           <h3>&nbsp;&nbsp;&nbsp;Corrigé</h3>
+           <img src="../img/exercice2.png" alt="exercice2" id="corrige">
+    
+           <h3>&nbsp;&nbsp;&nbsp;Exécution</h3>
+           <form action="">
+            <fieldset>
+                <legend>&nbsp;&nbsp;&nbsp;Résultat</legend>                
+                <label for="">Prix Hors Taxe (TVA à 18,6): </label>
+                <input type="text" name="prix" id="prix">
+                <br>
+                <div id="output"></div>
+                <input type="button" value="Exécuter" onclick="exercice2()">
+            </fieldset>
+           </form>
+        </section>
+    
+        <br><br>
+        <footer>
+            © Copyright : Gaetan - Farnaz - Mikael @Simplon Grenoble.2022
+        </footer>
+    </div>
+</body>
+</html>
