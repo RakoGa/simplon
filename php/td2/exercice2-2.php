@@ -15,13 +15,7 @@
             $lettersT[$i] = chr(random_int(65,90));
         }
 
-        foreach ($lettersT as $letter) {
-            if (array_key_exists($letter, $statsT)) {
-                $statsT[$letter]++; 
-            } else {
-                $statsT[$letter] = 1;
-            }
-        }
+        $statsT = array_count_values($lettersT);
 
         foreach ($statsT as $letter => $stat) {
             echo $letter . ': ' . $stat . ' apparitions <br>';
