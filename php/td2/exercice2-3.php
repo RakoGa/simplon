@@ -8,8 +8,7 @@
 </head>
 <body>
     <?php 
-        $lettersT = [];
-        $statsT = [];
+        $lettersT = $statsT = [];
 
         for ($i = 0; $i < 50; $i++) {
             $lettersT[$i] = chr(random_int(65,90));
@@ -18,7 +17,7 @@
         $statsT = array_count_values($lettersT);
 
         foreach ($statsT as $letter => $stat) {
-            $freq = ($stat / sizeof($lettersT)) * 100;
+            $freq = ($stat / count($lettersT)) * 100;
             echo $letter . ': ' . $stat . ' apparitions (' . $freq . '%) <br>';
         }
 

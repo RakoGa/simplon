@@ -41,14 +41,10 @@
             ]
         ];
 
-        // arrayName["keyName"];
-
-        for ($i = 0; $i < sizeof($friends); $i++) {
+        foreach ($friends as $friend) {
             echo "<ul>";
-            for ($j = 0; $j < sizeof($friends[$i]); $i++) {
-                $key = array_search(array_keys($friends[$i][$j]), $friends[$i]);
-                $value = array_keys($friends[$i]);
-                echo "<li>" . $key . ": " . $value . "</li>";
+            foreach ($friend as $infoName => $infoVal) {
+                echo "<li>" . $infoName . ": " . $infoVal . "</li>";
             }
             echo "</ul>";
             echo "<hr>";

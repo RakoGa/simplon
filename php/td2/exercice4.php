@@ -19,9 +19,9 @@
             echo $number . ' | ';
         }
 
-        for ($i = 0; $i < sizeof($t) / 2; $i++) {
+        for ($i = 0; $i < count($t) / 2; $i++) {
             $splicedValue = array_splice($t, $i, 1);
-            array_splice($t, sizeof($t)-$i, 0, $splicedValue[0]);
+            array_splice($t, count($t)-$i, 0, $splicedValue[0]);
         }
 
         echo "<br>Etat final: <br>";

@@ -11,8 +11,7 @@
         include "exercice1-4.php";
 
         $t = generateTable();
-        $evenT = [];
-        $oddT = [];
+        $evenT = $oddT = [];
 
         foreach ($t as $number) {
             if ($number % 2 == 0) {

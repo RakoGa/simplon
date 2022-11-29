@@ -8,8 +8,7 @@
 </head>
 <body>
     <?php 
-        $lettersT = [];
-        $statsT = [];
+        $lettersT = $statsT = [];
 
         for ($i = 0; $i < 50; $i++) {
             $lettersT[$i] = chr(random_int(65,90));
