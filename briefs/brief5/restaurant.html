@@ -6,37 +6,35 @@
         <script src="js/script.js"></script>
     </head>
     <body background="img\fond5.jpg">
-        
-            <table>
-                <td><img src="img\logo.png" alt="Logo" width="250" height="250">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td><a href=""><font size="5">Accueil</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>                
-                <td><a href=""><font size="5">Commander en ligne</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td><a href=""><font size="5">Retrait sur place</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td><a href=""><font size="5">Actualité & infos</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td><a href=""><font size="5">Nous contacter</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td>
-                    <div background="img\white.png">
-                        <p><font size="4">Votre panier</font></p>
-                        <button id="btnTotal">0€ <img src="img\panier.png" alt="Panier" width="20" height="20"></button>
-                    </div>
-                </td>
-            </table>
+        <table>
+            <td><img src="img\logo.png" alt="Logo" width="250" height="250">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><a href=""><font size="5">Accueil</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>                
+            <td><a href=""><font size="5">Commander en ligne</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><a href=""><font size="5">Retrait sur place</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><a href=""><font size="5">Actualité & infos</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><a href=""><font size="5">Nous contacter</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+                <div background="img\white.png">
+                    <p><font size="4" id="panierTxt">Votre panier</font></p>
+                    <button id="btnTotal" onclick="scrollToRecap()">0€ <img src="img\panier.png" alt="Panier" width="20" height="20"></button>
+                </div>
+            </td>
+        </table>
             
         <hr>
         
         <center><h1>Commander</h1></center>
         <br><br><br>
 
-
         <center>
             <h2>Entrées</h2>
             <table border="1" background="img\white.png" >
                 <td>
                     <center>
-                        <img src="img\salade_mediteraneenne.jpg" alt="Salade méditéranéenne" width="300" height="200">
+                        <img src="img\salade_mediteraneenne.jpg" alt="Salade méditéranéenne" width="300" height="200" class="aImg">
                         <br>
-                        <font size="5"><b><a href="">Salade méditéranéenne</a></b></font>
-                        <p>15€</p>
+                        <font size="5"><b><a href="" class="aName">Salade méditéranéenne</a></b></font>
+                        <p class="aPrice">15€</p>
                         <input type="number" placeholder="0" min="0" id="e1" class="article">
                         <button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button>
                     </center>
@@ -44,10 +42,10 @@
                 </td>
                 <td>
                     <center>
-                        <img src="img\salade_grecque.jpg" alt="Salade grecque" width="300" height="200">
+                        <img src="img\salade_grecque.jpg" alt="Salade grecque" width="300" height="200" class="aImg">
                         <br>
-                        <font size="5"><b><a href="">Salade grecque</a></b></font>
-                        <p>12€</p>
+                        <font size="5"><b><a href="" class="aName">Salade grecque</a></b></font>
+                        <p class="aPrice">12€</p>
                         <input type="number" placeholder="0" min="0" id="e2" class="article">
                         <button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button>
                     </center>
@@ -55,10 +53,10 @@
                 </td>
                 <td>
                     <center>
-                        <img src="img\tortilla_de_falafels.jpg" alt="Tortilla de falafels" width="300" height="200">
+                        <img src="img\tortilla_de_falafels.jpg" alt="Tortilla de falafels" width="300" height="200" class="aImg">
                         <br>
-                        <font size="5"><b><a href="">Tortilla de falafels</a></b></font>
-                        <p>14€</p>
+                        <font size="5"><b><a href="" class="aName">Tortilla de falafels</a></b></font>
+                        <p class="aPrice">14€</p>
                         <input type="number" placeholder="0" min="0" id="e3" class="article">
                         <button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button>
                     </center>
@@ -73,10 +71,10 @@
             <table border="1" background="img\white.png">
                 <td>
                     <center>
-                        <img src="img\risotto_milanaise.jpg" alt="Risotto à la milanaise" width="300" height="200">
+                        <img src="img\risotto_milanaise.jpg" alt="Risotto à la milanaise" width="300" height="200" class="aImg">
                         <br>
-                        <font size="5"><b><a href="">Risotto à la milanaise</a></b></font>
-                        <p>25€</p>
+                        <font size="5"><b><a href="" class="aName">Risotto à la milanaise</a></b></font>
+                        <p class="aPrice">25€</p>
                         <input type="number" placeholder="0" min="0" id="p1" class="article">
                         <button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button>
                     </center>
@@ -84,10 +82,10 @@
                 </td>
                 <td>
                     <center>
-                        <img src="img\spaghetti_bolognaise.jpg" alt="Spaghetti à la bolognaise" width="300" height="200">
+                        <img src="img\spaghetti_bolognaise.jpg" alt="Spaghetti à la bolognaise" width="300" height="200" class="aImg">
                         <br>
-                        <font size="5"><b><a href="">Spaghetti à la bolognaise</a></b></font>
-                        <p>23€</p>
+                        <font size="5"><b><a href="" class="aName">Spaghetti à la bolognaise</a></b></font>
+                        <p class="aPrice">23€</p>
                         <input type="number" placeholder="0" min="0" id="p2" class="article">
                         <button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button>
                     </center>
@@ -95,10 +93,10 @@
                 </td>
                 <td>
                     <center>
-                        <img src="img\escalope_milanaise.jpg" alt="Escalope à la milanaise" width="300" height="200">
+                        <img src="img\escalope_milanaise.jpg" alt="Escalope à la milanaise" width="300" height="200" class="aImg">
                         <br>
-                        <font size="5"><b><a href="">Escalope à la milanaise</a></b></font>
-                        <p>27€</p>
+                        <font size="5"><b><a href="" class="aName">Escalope à la milanaise</a></b></font>
+                        <p class="aPrice">27€</p>
                         <input type="number" placeholder="0" min="0" id="p3" class="article">
                         <button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button>
                     </center>
@@ -114,10 +112,10 @@
             <table border="1" background="img\white.png">
                 <td>
                     <center>
-                        <img src="img\cheesecake.jpg" alt="Cheesecake" width="300" height="200">
+                        <img src="img\cheesecake.jpg" alt="Cheesecake" width="300" height="200" class="aImg">
                         <br>
-                        <font size="5"><b><a href="">Cheesecake</a></b></font>
-                        <p>7€</p>
+                        <font size="5"><b><a href="" class="aName">Cheesecake</a></b></font>
+                        <p class="aPrice">7€</p>
                         <input type="number" placeholder="0" min="0" id="d1" class="article">
                         <button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button>
                     </center>
@@ -125,10 +123,10 @@
                 </td>
                 <td>
                     <center>
-                        <img src="img\chia_pudding.jpg" alt="Chia pudding" width="300" height="200">
+                        <img src="img\chia_pudding.jpg" alt="Chia pudding" width="300" height="200" class="aImg">
                         <br>
-                        <font size="5"><b><a href="">Chia Pudding</a></b></font>
-                        <p>5€</p>
+                        <font size="5"><b><a href="" class="aName">Chia Pudding</a></b></font>
+                        <p class="aPrice">5€</p>
                         <input type="number" placeholder="0" min="0" id="d2" class="article">
                         <button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button>
                     </center>
@@ -136,10 +134,10 @@
                 </td>
                 <td background-color="#ffffff">
                     <center>
-                        <img src="img\chocolate_cake.jpg" alt="Chocolate cake" width="300" height="200">
+                        <img src="img\chocolate_cake.jpg" alt="Chocolate cake" width="300" height="200" class="aImg">
                         <br>
-                        <font size="5"><b><a href="">Chocolate cake</a></b></font>
-                        <p>6€</p>
+                        <font size="5"><b><a href="" class="aName">Chocolate cake</a></b></font>
+                        <p class="aPrice">6€</p>
                         <input type="number" placeholder="0" min="0" id="d3" class="article">
                         <button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button>
                     </center>
@@ -154,77 +152,61 @@
             <h2>Boissons</h2>
             <table border="1" background="img\white.png">
                 <tr>
-                    <td>Eau</td>
-                    <td>2€</td>
-                    <td><input type="number" placeholder="0" min="0" id="b1" class="article"></td>
+                    <td class="aName">Eau</td>
+                    <td class="aPrice">2€</td>
+                    <td><input type="number" placeholder="0" min="0" id="b1" class="article boisson"></td>
                     <td><button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button></td>
                 </tr>
                 <tr>
-                    <td>Jus d'orange</td>
-                    <td>3€</td>
-                    <td><input type="number" placeholder="0" min="0" id="b2" class="article"></td>
+                    <td class="aName">Jus d'orange</td>
+                    <td class="aPrice">3€</td>
+                    <td><input type="number" placeholder="0" min="0" id="b2" class="article boisson"></td>
                     <td><button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button></td>
                 </tr>
                 <tr>
-                    <td>Coca-Cola</td>
-                    <td>3€</td>
-                    <td><input type="number" placeholder="0" min="0" id="b3" class="article"></td>
+                    <td class="aName">Coca-Cola</td>
+                    <td class="aPrice">3€</td>
+                    <td><input type="number" placeholder="0" min="0" id="b3" class="article boisson"></td>
                     <td><button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button></td>
                 </tr>
                 <tr>
-                    <td>Bière</td>
-                    <td>6€</td>
-                    <td><input type="number" placeholder="0" min="0" id="b4" class="article"></td>
+                    <td class="aName">Bière</td>
+                    <td class="aPrice">6€</td>
+                    <td><input type="number" placeholder="0" min="0" id="b4" class="article boisson"></td>
                     <td><button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button></td>
                 </tr>
                 <tr>
-                    <td>Vin</td>
-                    <td>8€</td>
-                    <td><input type="number" placeholder="0" min="0" id="b5" class="article"></td>
+                    <td class="aName">Vin</td>
+                    <td class="aPrice">8€</td>
+                    <td><input type="number" placeholder="0" min="0" id="b5" class="article boisson"></td>
                     <td><button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button></td>
                 </tr>
                 <tr>
-                    <td>Thé</td>
-                    <td>3€</td>
-                    <td><input type="number" placeholder="0" min="0" id="b6" class="article"></td>
+                    <td class="aName">Thé</td>
+                    <td class="aPrice">3€</td>
+                    <td><input type="number" placeholder="0" min="0" id="b6" class="article boisson"></td>
                     <td><button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button></td>
                 </tr>
                 <tr>
-                    <td>Café</td>
-                    <td>2€</td>
-                    <td><input type="number" placeholder="0" min="0" id="b7" class="article"></td>
+                    <td class="aName">Café</td>
+                    <td class="aPrice">2€</td>
+                    <td><input type="number" placeholder="0" min="0" id="b7" class="article boisson"></td>
                     <td><button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button></td>
                 </tr>
                 <tr>
-                    <td>Chocolat chaud</td>
-                    <td>4€</td>
-                    <td><input type="number" placeholder="0" min="0" id="b8" class="article"></td>
+                    <td class="aName">Chocolat chaud</td>
+                    <td class="aPrice">4€</td>
+                    <td><input type="number" placeholder="0" min="0" id="b8" class="article boisson"></td>
                     <td><button onclick="calcul()"><img src="img\panier.png" alt="Panier" width="20" height="20"></button></td>
                 </tr>
             </table>    
         </center>
 
-        <input type="button" value="Calcul" onclick="calcul()">
-        
         <br><hr>
             
-        <form action="">
-            <h2>Récapitulatif de votre commande:</h2>
+        <form action="" style="display: none" id="order">
+            <h2 id="recapTxt">Récapitulatif de votre commande:</h2>
             <table border="1px" background="img\white.png" id="recap">
-                <tr>
-                    <td><img src="img\risotto_milanaise.jpg" alt="Risotto à la milanaise" width="300" height="200"></td>
-                    <td><font size="5"><center>Risotto à la milanaise</center></font></td>
-                    <td><center>25€</center></td>
-                </tr>
-                <tr>
-                    <td><img src="img\tortilla_de_falafels.jpg" alt="Tortilla de falafels" width="300" height="200"></td>
-                    <td><font size="5"><center>Tortilla de falafels</center></font></td>
-                    <td><center>14€</center></td>
-                </tr>
-                <tr>
-                    <td colspan="2">Montant à régler:</td>
-                    <td colspan="3"><b><center>39€</center></b></td>
-                </tr>
             </table>
 
             <h3>Un commentaire à ajouter? Des ingrédients à retirer?</h3>
