@@ -11,7 +11,15 @@
         $months = ["Janvier", "Février", "Mars", "Avril", "May", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
         $colors = ["blue", "white", "red", "yellow", "grey", "lime", "lightblue", "fuchsia", "lightgrey", "olive", "pink", "purple"];
 
-        
+        echo "<table>";
+        for ($i = 0; $i < count($months) / 3; $i++) {
+            echo "<tr>";
+            for ($j = 0; $j < count($months) / 2; $j++) {
+                
+            }
+            echo "</tr>";
+        }
+        echo "</table>";
     ?>
 </body>
 </html>
