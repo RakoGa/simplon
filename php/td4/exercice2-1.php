@@ -11,13 +11,18 @@
         $months = ["Janvier", "Février", "Mars", "Avril", "May", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
         $colors = ["blue", "white", "red", "yellow", "grey", "lime", "lightblue", "fuchsia", "lightgrey", "olive", "pink", "purple"];
 
-        echo "<table>";
-        for ($i = 0; $i < count($months) / 3; $i++) {
+        echo "<table style=\"border-collapse: collapse\">";
+        $tdI = 0;
+        $tdJ = 0;
+        for ($i = 0; $i < 4; $i++) {
             echo "<tr>";
-            for ($j = 0; $j < count($months) / 2; $j++) {
-                
+            for ($j = 0; $j < 3; $j++) {
+                $tdJ = $tdI + $tdI + 1;
+                echo "<td style=\"border: 1px solid black\">" . $tdJ . "</td>";
+                echo "<td style=\"border: 1px solid black; background-color: " . $colors[$tdJ] . "\">" . $months[$tdJ] . "</td>";
             }
             echo "</tr>";
+            $tdI += 3;
         }
         echo "</table>";
     ?>
