@@ -21,3 +21,51 @@ SELECT EMPNO, EMPNOM, EMPPREN FROM employes WHERE EMPSEXE = 'M' ORDER BY EMPNOM 
 
 -- 10)
 SELECT EMPNO, EMPNOM, EMPPREN, SRVNOM FROM employes, services WHERE employes.SRVNO = services.SRVNO AND EMPSALAIRE > 1000;
+
+-- ext 1) chef de service
+ALTER TABLE employes ADD CHEFSRV boolean;
+INSERT INTO employes (EMPNO, EMPNOM, EMPPREN, EMPSEXE, SRVNO, CHEFSRV) VALUES
+(21, 'Granchef', 'Yaka', 'M', 1, TRUE),
+(22, 'Félécours', 'Yves', 'M', 2, TRUE),
+(23, 'Maouane', 'Assiba', 'F', 3, TRUE),
+(24, 'Teuse', 'Isabelle', 'F', 4, TRUE),
+(25, 'Laplomb', 'Jérémy', 'M', 5, TRUE),
+(26, 'Palherbe', 'Gaston', 'M', 6, TRUE);
+
+-- ext 2) liste des employés avec qui il a affaire
+SELECT * FROM employes ORDER BY SRVNO ASC, CHEFSRV DESC;
+
+-- 11)
+SELECT SRVNO, AVG(EMPSALAIRE) FROM employes GROUP BY SRVNO;
+
+-- 12)
+SELECT EMPNOM, EMPPREN, EMPSALAIRE FROM employes WHERE EMPSALAIRE > (SELECT EMPSALAIRE FROM employes WHERE EMPNO = 11);
+
+-- 13) aaaaaaaaaaaaa
+SELECT SRVNO, AVG(EMPSALAIRE) FROM employes WHERE AVG(EMPSALAIRE) < (SELECT AVG(EMPSALAIRE) FROM employes);
+
+-- 14)
+SELECT projets.SRVNO, PROJLIB, SRVNOM FROM services, projets WHERE services.SRVNO = projets.SRVNO ORDER BY SRVNO ASC;
+
+-- 15) aaaaaaaaaaaaa
+SELECT projets.PROJLIB, projets.PROJNO FROM employes, projets, intervenir WHERE employes.SRVNO = projets.SRVNO AND projets.PROJNO = intervenir.PROJNO AND EMPNOM = 'DESTIN' GROUP BY intervenir.PROJNO ASC;
+
+-- 16)
+SELECT SRVNO, EMPNOM, EMPNO FROM employes WHERE EMPSEXE = 'M' AND EMPPRIME > 800 ORDER BY SRVNO, EMPNOM;
+
+-- 17)
+SELECT SRVNO, EMPNOM, EMPPREN, EMPSALAIRE + EMPPRIME AS TOTAL FROM employes WHERE SRVNO = 1 OR SRVNO = 2 OR SRVNO = 4 ORDER BY SRVNO ASC, TOTAL desc;
+
+-- 18)
+SELECT SUM(EMPSALAIRE), MIN(EMPSALAIRE), MAX(EMPSALAIRE) FROM employes;
+
+-- 19)
+SELECT COUNT(SRVNO) FROM employes;
+
+-- 20)
+SELECT services.SRVNO, SRVNOM, AVG(EMPPRIME) FROM employes, services WHERE employes.SRVNO = services.SRVNO GROUP BY SRVNO;
+
+-- 21) aaaaaaaaaaaaaa
+SELECT PROJLIB FROM projets, intervenir WHERE projets.PROJNO = intervenir.PROJNO GROUP BY SRVNO HAVING COUNT(NBHEURES) > 120;
+
+-- 22)
