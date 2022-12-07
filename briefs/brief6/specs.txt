@@ -1,0 +1,26 @@
+4> Le centre de documention universitaire régional (12 campus) propose des revues de presses thematiques aux enseignants, etudiants et personnels administratifs..
+
+Ils gèrent donc:
+
+1) Leur catalogue de revues de presse par thème et la fréquence de distributions.
+2) La liste des inscits pour recvoir ces revues de presse.
+3) Une liste des différentes publications et les thèmes dans lesquels ellessont spécialisés
+4) Les contacts vers ces différentes rédactions.
+5) Les devis et factures des équipes qui réalisent les différentes revues de presse.
+
+revue de presse = liste d'articles?
+
+1) 
+    - chaque revue de presse aura un thème associé, "fréquence"??
+2)
+    - un utilisateur doit pouvoir s'inscrire (pas forcément pour recevoir) -> le renseigner dans la base de données
+    - la liste des inscrits doit pouvoir être consultable et modifiable
+    - envoyer les revues uniquement au inscrits
+3)
+    - afficher la liste des revues
+    - trier par thèmes
+    - les afficher individuellement 
+4)
+    - associer le nom des rédactions aux revues de presse (nom, email, site internet?)
+5)
+    - 
