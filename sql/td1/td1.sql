@@ -113,7 +113,7 @@ GROUP BY SRVNO;
 SELECT PROJLIB 
 FROM projets, intervenir 
 WHERE projets.PROJNO = intervenir.PROJNO 
-GROUP BY SRVNO 
+GROUP BY projets.PROJNO 
 HAVING SUM(NBHEURES) > 120;
 
 -- 22)

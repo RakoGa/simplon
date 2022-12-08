@@ -16,6 +16,7 @@ revue de presse = liste d'articles?
     - un utilisateur doit pouvoir s'inscrire (pas forcément pour recevoir) -> le renseigner dans la base de données
     - la liste des inscrits doit pouvoir être consultable et modifiable
     - envoyer les revues uniquement au inscrits
+    - système d'abonnement 
 3)
     - afficher la liste des revues
     - trier par thèmes
