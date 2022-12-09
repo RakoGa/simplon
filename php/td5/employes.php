@@ -33,40 +33,58 @@
         }
     ?>
 
-    <table>
-        <tr>
-            <th>Numéro</th>
-            <th>Nom</th>
-            <th>Prénom</th>
-            <th>Sexe</th>
-            <th>Salaire</th>
-            <th>Prime</th>
-            <th>Service</th>
-            <th>Chef du service?</th>
-        </tr>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <th>Numéro</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Sexe</th>
+                <th>Salaire</th>
+                <th>Prime</th>
+                <th>Service</th>
+                <th>Chef du service?</th>
+            </tr>
 
-        <?php 
-            $allEmp = $bdd->query('SELECT * FROM employes;');
+            <?php 
+                $allEmp = $bdd->query('SELECT * FROM employes;');
 
-            while ($data = $allEmp->fetch()) {
-                echo "<tr>";
-                echo "<td>" . $data["EMPNO"] . "</td>";
-                echo "<td>" . $data["EMPNOM"] . "</td>";
-                echo "<td>" . $data["EMPPREN"] . "</td>";
-                echo "<td>" . $data["EMPSEXE"] . "</td>";
-                echo "<td>" . $data["EMPSALAIRE"] . "</td>";
-                echo "<td>" . $data["EMPPRIME"] . "</td>";
-                echo "<td>" . $data["SRVNO"] . "</td>";
-                if ($data["CHEFSRV"] == 0) {
-                    echo "<td>Non</td>";
-                } elseif ($data["CHEFSRV"] == 1) {
-                    echo "<td>Oui</td>";
+                $i = 0;
+                while ($data = $allEmp->fetch()) {
+                    echo "<tr>";
+                    echo "<td>" . $data["EMPNO"] . "</td>";
+                    echo "<td>" . $data["EMPNOM"] . "</td>";
+                    echo "<td>" . $data["EMPPREN"] . "</td>";
+                    echo "<td>" . $data["EMPSEXE"] . "</td>";
+                    echo "<td>" . $data["EMPSALAIRE"] . "</td>";
+                    echo "<td>" . $data["EMPPRIME"] . "</td>";
+                    echo "<td>" . $data["SRVNO"] . "</td>";
+                    if ($data["CHEFSRV"] == 0) {
+                        echo "<td>Non</td>";
+                    } elseif ($data["CHEFSRV"] == 1) {
+                        echo "<td>Oui</td>";
+                    }
+                    // echo "<td><a href=\"\">Modifier</a> <a href=\"\">Supprimer</a></td>";
+                    $updVal = "upd" . strval($i);
+                    $delVal = "del" . strval($i);
+                    echo "<td><input type=\"submit\" value=\"Modifier\" name=\"" . $updVal . "\"><input type=\"submit\" value=\"Supprimer\" name=\"" . $delVal . "\"></td>";
+                    echo "</tr>";
+
+                    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                        if (isset($_POST[$updVal])) {
+                            $_SESSION["id"] = strval($i);
+                            header('location: modifierEmploye.php');
+                            exit();
+                        } elseif (isset($_POST[$delVal])) {
+                            $bdd->exec('DELETE FROM employes WHERE EMPNO = ' . $i . ';');
+                            header('refresh: 0');
+                        }
+                    }
+
+                    $i++;
                 }
-                echo "<td><a href=\"\">Modifier</a> <a href=\"\">Supprimer</a></td>";
-                echo "</tr>";
-            }
-        ?>
-
-    </table>
+            ?>
+        </table>
+    </form>
 </body>
 </html>

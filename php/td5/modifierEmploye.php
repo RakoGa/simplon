@@ -20,7 +20,7 @@
     </header>
 
     <hr>
-    <h1>Nouvel employé</h1>
+    <h1>Modifier employé <?php echo $_SESSION["id"];?></h1>
     <hr>
 
     <?php 
