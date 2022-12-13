@@ -25,3 +25,17 @@ revue de presse = liste d'articles?
     - associer le nom des rédactions aux revues de presse (nom, email, site internet?)
 5)
     - 
+
+
+types d'utilisateurs: enseignants, étudiants, administrateurs
+les étudiants doivent pouvoir consulter et s'inscrire
+les enseignants doivent pouvoir créer des revues de presse (?)
+les admins peuvent tout consulter/faire
+
+tri par thème: thèmes/"tags" associés aux revues
+=> possibilité de choisir plusieurs thèmes dans la liste de toutes les revues
+    pour voir toutes les revues qui ont l'un, l'autre ou tous les thèmes cochés/associés
+
+création revue:
+    ajout d'un sujet + thème général
+    liste de liens traitant du sujet avec les auteurs/contacts/nom des rédactions

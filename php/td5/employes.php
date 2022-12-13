@@ -71,14 +71,18 @@
                     echo "</tr>";
 
                     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                        if (isset($_POST[$updVal])) {
-                            $_SESSION["id"] = strval($i);
-                            header('location: modifierEmploye.php');
-                            exit();
-                        } elseif (isset($_POST[$delVal])) {
+                        if (isset($_POST[$delVal])) {
                             $bdd->exec('DELETE FROM employes WHERE EMPNO = ' . $i . ';');
                             header('refresh: 0');
                         }
+                        // if (isset($_POST[$updVal])) {
+                        //     $_SESSION["id"] = strval($i);
+                        //     header('location: modifierEmploye.php');
+                        //     exit();
+                        // } elseif (isset($_POST[$delVal])) {
+                        //     $bdd->exec('DELETE FROM employes WHERE EMPNO = ' . $i . ';');
+                        //     header('refresh: 0');
+                        // }
                     }
 
                     $i++;
