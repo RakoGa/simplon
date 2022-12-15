@@ -72,8 +72,10 @@
 
                     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         if (isset($_POST[$delVal])) {
+                            var_dump($_SERVER['REQUEST_URI']);
                             $bdd->exec('DELETE FROM employes WHERE EMPNO = ' . $i . ';');
                             header('refresh: 0');
+                            // header('location: $_SERVER[\'REQUEST_URI\']');
                         }
                         // if (isset($_POST[$updVal])) {
                         //     $_SESSION["id"] = strval($i);
