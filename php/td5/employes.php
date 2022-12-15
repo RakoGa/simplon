@@ -49,7 +49,7 @@
             <?php 
                 $allEmp = $bdd->query('SELECT * FROM employes;');
 
-                $i = 0;
+                // $i = 0;
                 while ($data = $allEmp->fetch()) {
                     echo "<tr>";
                     echo "<td>" . $data["EMPNO"] . "</td>";
@@ -65,17 +65,25 @@
                         echo "<td>Oui</td>";
                     }
                     // echo "<td><a href=\"\">Modifier</a> <a href=\"\">Supprimer</a></td>";
-                    $updVal = "upd" . strval($i);
-                    $delVal = "del" . strval($i);
-                    echo "<td><input type=\"submit\" value=\"Modifier\" name=\"" . $updVal . "\"><input type=\"submit\" value=\"Supprimer\" name=\"" . $delVal . "\"></td>";
-                    echo "</tr>";
-
+                    // $updVal = "upd" . strval($i);
+                    // $delVal = "del" . strval($i);
+                    $updVal = "upd" . strval($data["EMPNO"]);
+                    $delVal = "del" . strval($data["EMPNO"]);
+                    
+                    // headers???? already sent?????????
+                    // ????????????????????????????????
                     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                        // header_remove();
                         if (isset($_POST[$delVal])) {
-                            var_dump($_SERVER['REQUEST_URI']);
-                            $bdd->exec('DELETE FROM employes WHERE EMPNO = ' . $i . ';');
+                            // var_dump($_SERVER['REQUEST_URI']);
+                            $bdd->exec('DELETE FROM employes WHERE EMPNO = ' . $data["EMPNO"] . ';');
                             header('refresh: 0');
+                            exit();
                             // header('location: $_SERVER[\'REQUEST_URI\']');
+                        } elseif (isset($_POST[$updVal])) {
+                            $_SESSION["id"] = $data["EMPNO"];
+                            header('location: modifierEmploye.php');
+                            exit();    
                         }
                         // if (isset($_POST[$updVal])) {
                         //     $_SESSION["id"] = strval($i);
@@ -87,7 +95,10 @@
                         // }
                     }
 
-                    $i++;
+                    echo "<td><input type=\"submit\" value=\"Modifier\" name=\"" . $updVal . "\"><input type=\"submit\" value=\"Supprimer\" name=\"" . $delVal . "\"></td>";
+                    echo "</tr>";
+
+                    // $i++;
                 }
             ?>
         </table>
