@@ -76,13 +76,14 @@
                         // header_remove();
                         if (isset($_POST[$delVal])) {
                             // var_dump($_SERVER['REQUEST_URI']);
+                            var_dump(getallheaders());
                             $bdd->exec('DELETE FROM employes WHERE EMPNO = ' . $data["EMPNO"] . ';');
-                            header('refresh: 0');
+                            header('Refresh: 0');
                             exit();
                             // header('location: $_SERVER[\'REQUEST_URI\']');
                         } elseif (isset($_POST[$updVal])) {
                             $_SESSION["id"] = $data["EMPNO"];
-                            header('location: modifierEmploye.php');
+                            header('Location: modifierEmploye.php');
                             exit();    
                         }
                         // if (isset($_POST[$updVal])) {

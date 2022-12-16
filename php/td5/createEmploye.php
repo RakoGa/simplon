@@ -57,8 +57,13 @@
                     <td><input type="text" name="prenom" id="prenom"></td>
                 </tr>
                 <tr>
-                    <td><label for="sexe">Sexe (M/F): </label></td>
-                    <td><input type="text" name="sexe" id="sexe"></td>
+                    <td><label for="sexe">Sexe: </label></td>
+                    <td>
+                        <select name="sexe" id="sexe">
+                            <option value="M">M</option>
+                            <option value="F">F</option>
+                        </select>
+                    </td>
                 </tr>
                 <tr>
                     <td><label for="salaire">Salaire: </label></td>
