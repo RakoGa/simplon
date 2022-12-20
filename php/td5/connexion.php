@@ -26,7 +26,7 @@
                 }
             ?>
             <label for="login">Identifiant: </label>
-            <input type="text" name="login" id="login">
+            <input type="text" name="login" id="login" autofocus>
             <br>
 
             <label for="pw">Mot de passe: </label>

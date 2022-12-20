@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
+    <?php
     if (!isset($_SESSION)) {
         session_start();
     }
@@ -25,8 +25,6 @@
 
     <?php
         try {
-            // $bdd = new PDO('mysql:host=localhost;dbname=societe;charset=utf8', $_SESSION["login"], $_SESSION["pw"]);
-            // unset($_SESSION["root"], $_SESSION["pw"]);
             $bdd = new PDO('mysql:host=localhost;dbname=societe;charset=utf8', 'root', '');
         } catch (Exception $e) {
             die('Erreur: ' . $e->getMessage());
@@ -46,10 +44,9 @@
                 <th>Chef du service?</th>
             </tr>
 
-            <?php 
+            <?php
                 $allEmp = $bdd->query('SELECT * FROM employes;');
 
-                // $i = 0;
                 while ($data = $allEmp->fetch()) {
                     echo "<tr>";
                     echo "<td>" . $data["EMPNO"] . "</td>";
@@ -64,43 +61,28 @@
                     } elseif ($data["CHEFSRV"] == 1) {
                         echo "<td>Oui</td>";
                     }
-                    // echo "<td><a href=\"\">Modifier</a> <a href=\"\">Supprimer</a></td>";
-                    // $updVal = "upd" . strval($i);
-                    // $delVal = "del" . strval($i);
                     $updVal = "upd" . strval($data["EMPNO"]);
                     $delVal = "del" . strval($data["EMPNO"]);
                     
-                    // headers???? already sent?????????
-                    // ????????????????????????????????
                     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                        // header_remove();
                         if (isset($_POST[$delVal])) {
-                            // var_dump($_SERVER['REQUEST_URI']);
-                            var_dump(getallheaders());
                             $bdd->exec('DELETE FROM employes WHERE EMPNO = ' . $data["EMPNO"] . ';');
-                            header('Refresh: 0');
-                            // aa
+                            echo '<meta http-equiv="Refresh" content="url=employes.php">';
+                            // header('Location: employes.php');
+                            // header('Refresh: 0');
                             exit();
-                            // header('location: $_SERVER[\'REQUEST_URI\']');
-                        } elseif (isset($_POST[$updVal])) {
+                        } 
+                        
+                        if (isset($_POST[$updVal])) {
                             $_SESSION["id"] = $data["EMPNO"];
-                            header('Location: modifierEmploye.php');
+                            echo '<meta http-equiv="Location" content="modifierEmploye.php">';
+                            // header('Location: modifierEmploye.php');
                             exit();    
                         }
-                        // if (isset($_POST[$updVal])) {
-                        //     $_SESSION["id"] = strval($i);
-                        //     header('location: modifierEmploye.php');
-                        //     exit();
-                        // } elseif (isset($_POST[$delVal])) {
-                        //     $bdd->exec('DELETE FROM employes WHERE EMPNO = ' . $i . ';');
-                        //     header('refresh: 0');
-                        // }
                     }
 
                     echo "<td><input type=\"submit\" value=\"Modifier\" name=\"" . $updVal . "\"><input type=\"submit\" value=\"Supprimer\" name=\"" . $delVal . "\"></td>";
                     echo "</tr>";
-
-                    // $i++;
                 }
             ?>
         </table>

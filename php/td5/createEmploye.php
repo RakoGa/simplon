@@ -50,7 +50,7 @@
             <table>
                 <tr>
                     <td><label for="nom">Nom: </label></td>
-                    <td><input type="text" name="nom" id="nom"></td>
+                    <td><input type="text" name="nom" id="nom" autofocus></td>
                 </tr>
                 <tr>
                     <td><label for="prenom">Prénom: </label></td>
