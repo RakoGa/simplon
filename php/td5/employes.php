@@ -79,6 +79,7 @@
                             var_dump(getallheaders());
                             $bdd->exec('DELETE FROM employes WHERE EMPNO = ' . $data["EMPNO"] . ';');
                             header('Refresh: 0');
+                            // aa
                             exit();
                             // header('location: $_SERVER[\'REQUEST_URI\']');
                         } elseif (isset($_POST[$updVal])) {
