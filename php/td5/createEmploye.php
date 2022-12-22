@@ -65,7 +65,7 @@
                         </select>
                     </td>
                 </tr>
-                <!-- ejifjeof -->
+                <!-- ejif -->
                 <tr>
                     <td><label for="salaire">Salaire: </label></td>
                     <td><input type="text" name="salaire" id="salaire"></td>
