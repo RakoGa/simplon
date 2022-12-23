@@ -1,0 +1,17 @@
+1) cahier des charges
+ex: un acteur joue dans un ou plusieurs films.
+un film peut avoir un ou plusieurs acteurs
+
+2) conception/création du diagramme de classes
+=> classe acteur, classe film
+acteur: numAct (unique id), nomAct
+film: numFilm (unique id), titre
+jouer (classe association): role (d'un acteur dans un film)
+
+3) Transformation du diagramme de classe vers le modèle relationnel
+acteur(__numAct__, nomAct)
+film (__numFilm__, titre)
+jouer (__#numAct__, __#numFilm__, role) => double clé primaire/étrangère car relation 1..* / 1..* entre acteur/film
+
+4) Création de la base avec un SGBD (mySQL)
+
