@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{5CF4A971-2B09-4D67-8498-2BB6EA58E615}" Label="" LastModificationDate="1671787499" Name="ModeleOrienteObjet_1" Objects="93" Symbols="5" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.7.1.6488"?>
+<?PowerDesigner AppLocale="UTF16" ID="{5CF4A971-2B09-4D67-8498-2BB6EA58E615}" Label="" LastModificationDate="1671787003" Name="ModeleOrienteObjet_1" Objects="91" Symbols="14" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.7.1.6488"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -13,7 +13,7 @@
 <a:Code>ModeleOrienteObjet_1</a:Code>
 <a:CreationDate>1671786198</a:CreationDate>
 <a:Creator>simplon</a:Creator>
-<a:ModificationDate>1671787498</a:ModificationDate>
+<a:ModificationDate>1671786922</a:ModificationDate>
 <a:Modifier>simplon</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -23,2382 +23,7 @@ GenerationPath=
 GenerationOptions=
 GenerationTasks=
 GenerationTargets=
-GenerationSelections=
-
-[FolderOptions\CheckModel]
-
-[FolderOptions\CheckModel\Package]
-
-[FolderOptions\CheckModel\Package\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Package\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Package\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Package\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Package\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Package\CheckPackageMissTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Package\DefaultCheckPackageMissTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Package\Circular inheritance]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Package\Circular dependency]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Package\ShortcutUniqCode]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=No
-
-[FolderOptions\CheckModel\Package\ChildShortcut]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe]
-
-[FolderOptions\CheckModel\Classe\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Empty classifier]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Persistent class]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Association Identifier]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Visibility]
-CheckSeverity=Yes
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Constructor return type]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Constructor modifier]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Method implementation]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Role name assignment]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Role name unicity]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\BeanInfo]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\JavaBean]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Inheritance on Enum Type (Java)]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\BeanClassDefinition]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\BeanClassBusinessImpl]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\BeanClassHomeImpl]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\BeanClassEjbCreate]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\BeanClassEjbPostCreate]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\BeanClassEjbFind]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\BeanClassEjbHome]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\BeanClassEjbSelect]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\PKClassDefinition]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\PKClassAttributes]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\PKClassExistence]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Mapping]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\MappingSFMap]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\CsfrWrongBound]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\ClssInvalidGenMode]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Java_Class_Enum_Enum_ration_abstraite]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Java_Class_Enum_Enum_ration_finale]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe\Java_Class_EJB3BeanClass_Composant_EJB_manquant]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface]
-
-[FolderOptions\CheckModel\Interface\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\Empty classifier]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\Visibility]
-CheckSeverity=Yes
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\Interface constructor]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\Association navigability]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\HomeCreateMethods]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\HomeFindMethods]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\HomeMethods]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\ObjectBusinessMethods]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface\CsfrWrongBound]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Attribut]
-
-[FolderOptions\CheckModel\Classe.Attribut\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Attribut\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Attribut\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Attribut\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Attribut\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Attribut\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Attribut\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Attribut\CheckNumParam]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Attribut\Datatype assignment]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Attribut\Extend final class]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Attribut\DomainDivergence]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Attribut\CheckDttpIncompatibleFormat]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Identifiant]
-
-[FolderOptions\CheckModel\Classe.Identifiant\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Identifiant\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Identifiant\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Identifiant\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Identifiant\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Identifiant\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Identifiant\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Identifiant\EmptyColl - ATTR]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Identifiant\CheckIncludeColl - Clss]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut]
-
-[FolderOptions\CheckModel\Interface.Attribut\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut\CheckNumParam]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut\Datatype assignment]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut\Extend final class]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut\DomainDivergence]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut\Event parameter datatype]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Attribut\CheckDttpIncompatibleFormat]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération]
-
-[FolderOptions\CheckModel\Classe.Opération\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\Return type assignment]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\Parameter datatype]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\Abstract operation&#39;s body]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\Abstract operation]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\Operation signature]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\Overriding operation]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\Enum Abstract Methods]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Opération\Java_Operation_Param_tre_d_argument_variable]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Port]
-
-[FolderOptions\CheckModel\Classe.Port\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Port\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Port\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Port\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Port\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Port\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Port\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Port\PortIsolated]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=No
-
-[FolderOptions\CheckModel\Classe.Partie]
-
-[FolderOptions\CheckModel\Classe.Partie\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Partie\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Partie\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Partie\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Partie\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Partie\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Partie\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Partie\PartLink]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=No
-
-[FolderOptions\CheckModel\Classe.Partie\PartComposition]
-CheckSeverity=Yes
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage]
-
-[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\AscnNull]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=No
-
-[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\AscnIntf]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=No
-
-[FolderOptions\CheckModel\Interface.Opération]
-
-[FolderOptions\CheckModel\Interface.Opération\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Opération\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Opération\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Opération\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Opération\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Opération\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Opération\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Opération\Return type assignment]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Opération\Parameter datatype]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Interface.Opération\Java_Operation_Param_tre_d_argument_variable]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Association]
-
-[FolderOptions\CheckModel\Association\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Association\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Association\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Association\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Association\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Association\Generic links]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Association\Bound links]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Généralisation]
-
-[FolderOptions\CheckModel\Généralisation\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Généralisation\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Généralisation\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Généralisation\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Généralisation\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Généralisation\Redundant Generalizations]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Généralisation\Multiple inheritance (Java)]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Généralisation\Final datatype with initial value]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Généralisation\Non-Persistent Specifying Attribute]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Généralisation\Generic links]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Généralisation\Bound links]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Réalisation]
-
-[FolderOptions\CheckModel\Réalisation\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Réalisation\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Réalisation\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Réalisation\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Réalisation\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Réalisation\Redundant Realizations]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Réalisation\Generic links]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Réalisation\Bound links]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Domaine]
-
-[FolderOptions\CheckModel\Domaine\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Domaine\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Domaine\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Domaine\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Domaine\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Domaine\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Domaine\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Domaine\CheckNumParam]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Domaine\CheckDttpIncompatibleFormat]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Acteur]
-
-[FolderOptions\CheckModel\Acteur\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Acteur\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Acteur\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Acteur\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Acteur\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Acteur\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Acteur\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Acteur\Single]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Cas d&#39;utilisation]
-
-[FolderOptions\CheckModel\Cas d&#39;utilisation\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Cas d&#39;utilisation\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Cas d&#39;utilisation\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Cas d&#39;utilisation\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Cas d&#39;utilisation\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Cas d&#39;utilisation\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Cas d&#39;utilisation\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Cas d&#39;utilisation\Single]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet]
-
-[FolderOptions\CheckModel\Objet\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet\Single]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien entre objets]
-
-[FolderOptions\CheckModel\Lien entre objets\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien entre objets\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien entre objets\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien entre objets\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien entre objets\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien entre objets\Redundant Instance links]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Référence d&#39;interaction]
-
-[FolderOptions\CheckModel\Référence d&#39;interaction\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Référence d&#39;interaction\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Référence d&#39;interaction\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Référence d&#39;interaction\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Référence d&#39;interaction\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Référence d&#39;interaction\IRefDiagram]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Référence d&#39;interaction\IRefLifelines]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Référence d&#39;interaction\IRefInpMsg]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Référence d&#39;interaction\IRefOutMsg]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Message]
-
-[FolderOptions\CheckModel\Message\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Message\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Message\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Message\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Message\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Message\MessageNoNumber]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=No
-
-[FolderOptions\CheckModel\Message\MessageManyLinks]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Message\Actor-Message]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité]
-
-[FolderOptions\CheckModel\Activité\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité\CheckActvTrns]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité\CheckNoStart]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité\CheckActvReuse]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud d&#39;objet]
-
-[FolderOptions\CheckModel\Noeud d&#39;objet\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud d&#39;objet\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud d&#39;objet\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud d&#39;objet\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud d&#39;objet\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud d&#39;objet\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud d&#39;objet\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud d&#39;objet\CheckObndDttp]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Décision]
-
-[FolderOptions\CheckModel\Décision\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Décision\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Décision\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Décision\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Décision\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Décision\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Décision\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Décision\CheckDcsnCompl]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Synchronisation]
-
-[FolderOptions\CheckModel\Synchronisation\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Synchronisation\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Synchronisation\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Synchronisation\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Synchronisation\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Synchronisation\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Synchronisation\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Synchronisation\CheckSyncCompl]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Unité d&#39;organisation]
-
-[FolderOptions\CheckModel\Unité d&#39;organisation\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Unité d&#39;organisation\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Unité d&#39;organisation\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Unité d&#39;organisation\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Unité d&#39;organisation\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Unité d&#39;organisation\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Unité d&#39;organisation\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Unité d&#39;organisation\CheckPrntOrgnLoop]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Début]
-
-[FolderOptions\CheckModel\Début\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Début\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Début\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Début\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Début\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Début\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Début\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Début\CheckStrtTrns]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fin]
-
-[FolderOptions\CheckModel\Fin\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fin\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fin\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fin\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fin\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fin\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fin\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fin\CheckStrtTrns]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Transition]
-
-[FolderOptions\CheckModel\Transition\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Transition\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Transition\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Transition\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Transition\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Transition\CheckTrnsSrc]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Transition\CheckTrnsCond]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Transition\TrnsDuplSTAT]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Flux]
-
-[FolderOptions\CheckModel\Flux\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Flux\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Flux\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Flux\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Flux\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Flux\CheckFlowSrc]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Flux\CheckFlowNoCond]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Flux\CheckFlowCond]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Flux\FlowDuplOOMACTV]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Evénement]
-
-[FolderOptions\CheckModel\Evénement\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Evénement\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Evénement\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Evénement\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Evénement\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Evénement\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Evénement\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Evénement\EvntUnused]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat]
-
-[FolderOptions\CheckModel\Etat\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat\StatTrns]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat\StatNoStart]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat\ActnOrder]
-CheckSeverity=Yes
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat.Action]
-
-[FolderOptions\CheckModel\Etat.Action\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat.Action\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat.Action\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat.Action\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat.Action\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat.Action\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat.Action\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat.Action\ActnEvent]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Etat.Action\ActnDupl]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Point de jonction]
-
-[FolderOptions\CheckModel\Point de jonction\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Point de jonction\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Point de jonction\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Point de jonction\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Point de jonction\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Point de jonction\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Point de jonction\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Point de jonction\JnPtCompl]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant]
-
-[FolderOptions\CheckModel\Composant\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant\Single]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant\EJBClassifiers]
-CheckSeverity=No
-FixRequested=Yes
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant\Method Soap Message redefinition]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant\WSDLJava_Component_Service_Web_vide]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Port]
-
-[FolderOptions\CheckModel\Composant.Port\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Port\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Port\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Port\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Port\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Port\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Port\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Port\PortIsolated]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=No
-
-[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage]
-
-[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\AscnNull]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=No
-
-[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\AscnIntf]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=No
-
-[FolderOptions\CheckModel\Noeud]
-
-[FolderOptions\CheckModel\Noeud\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Noeud\Empty Node]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Instance de composant]
-
-[FolderOptions\CheckModel\Instance de composant\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Instance de composant\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Instance de composant\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Instance de composant\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Instance de composant\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Instance de composant\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Instance de composant\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Instance de composant\Component Instance with null Component]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Instance de composant\Duplicate Component Instance]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Instance de composant\Isolated Component Instance]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Source de données]
-
-[FolderOptions\CheckModel\Source de données\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Source de données\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Source de données\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Source de données\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Source de données\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Source de données\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Source de données\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Source de données\EmptyColl - MODLSRC]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Source de données\Data Source Target Consistency]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée]
-
-[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre de sortie]
-
-[FolderOptions\CheckModel\Activité.Paramètre de sortie\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre de sortie\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre de sortie\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre de sortie\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre de sortie\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre de sortie\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Activité.Paramètre de sortie\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Réplication]
-
-[FolderOptions\CheckModel\Réplication\PartialReplication]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Règle de gestion]
-
-[FolderOptions\CheckModel\Règle de gestion\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Règle de gestion\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Règle de gestion\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Règle de gestion\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Règle de gestion\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Règle de gestion\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Règle de gestion\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Règle de gestion\EmptyColl - OBJCOL]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet étendu]
-
-[FolderOptions\CheckModel\Objet étendu\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet étendu\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet étendu\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet étendu\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet étendu\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet étendu\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Objet étendu\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien étendu]
-
-[FolderOptions\CheckModel\Lien étendu\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien étendu\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien étendu\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien étendu\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien étendu\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien étendu\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Lien étendu\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fichier]
-
-[FolderOptions\CheckModel\Fichier\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fichier\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fichier\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fichier\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fichier\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fichier\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Fichier\CheckPathExists]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Format de données]
-
-[FolderOptions\CheckModel\Format de données\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Format de données\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Format de données\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Format de données\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Format de données\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Format de données\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Format de données\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Format de données\CheckDataFormatNullExpression]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Zone]
-
-[FolderOptions\CheckModel\Zone\CheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Zone\CheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Zone\DefaultCheckUseOnlyTerms]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Zone\DefaultCheckUseTermBySynonym]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Zone\NotApprovedTerms]
-CheckSeverity=Yes
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Zone\UniqueNom]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes
-
-[FolderOptions\CheckModel\Zone\UniqueCode]
-CheckSeverity=No
-FixRequested=No
-CheckRequested=Yes</a:PackageOptionsText>
+GenerationSelections=</a:PackageOptionsText>
 <a:ModelOptionsText>[ModelOptions]
 
 [ModelOptions\Cld]
@@ -3354,25 +979,10 @@ IndxAKName=%TABLE%_AK
 IndxFKName=%REFR%_FK
 IndxThreshold=
 ColnFKName=%.3:PARENT%_%COLUMN%
-ColnFKNameUse=No
-PreserveMode=Yes</a:ModelOptionsText>
+ColnFKNameUse=No</a:ModelOptionsText>
 <a:RepositoryFilename>C:\Users\simplon\Documents\gaetan\conception\ModeleOrienteObjet_cinemas.moo</a:RepositoryFilename>
-<c:GeneratedModels>
-<o:Shortcut Id="o3">
-<a:ObjectID>8FA8134B-20CE-4A74-9AC6-1D3431C4228E</a:ObjectID>
-<a:Name>ModeleOrienteObjet_1</a:Name>
-<a:Code>MODELEORIENTEOBJET_1</a:Code>
-<a:CreationDate>1671787499</a:CreationDate>
-<a:Creator>simplon</a:Creator>
-<a:ModificationDate>1671787499</a:ModificationDate>
-<a:Modifier>simplon</a:Modifier>
-<a:TargetStereotype/>
-<a:TargetID>AFF56C76-4BD8-499B-9FF5-267D46FDD526</a:TargetID>
-<a:TargetClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetClassID>
-</o:Shortcut>
-</c:GeneratedModels>
 <c:ObjectLanguage>
-<o:Shortcut Id="o4">
+<o:Shortcut Id="o3">
 <a:ObjectID>A33E80EB-7797-4701-B995-C754249E67B9</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
@@ -3386,7 +996,7 @@ PreserveMode=Yes</a:ModelOptionsText>
 </o:Shortcut>
 </c:ObjectLanguage>
 <c:ExtendedModelDefinitions>
-<o:Shortcut Id="o5">
+<o:Shortcut Id="o4">
 <a:ObjectID>F765A8E2-F4EE-44A5-819E-122DA85351B8</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
@@ -3400,7 +1010,7 @@ PreserveMode=Yes</a:ModelOptionsText>
 </o:Shortcut>
 </c:ExtendedModelDefinitions>
 <c:ClassDiagrams>
-<o:ClassDiagram Id="o6">
+<o:ClassDiagram Id="o5">
 <a:ObjectID>5E133969-BA15-40B6-8D88-A1607F1AF3BD</a:ObjectID>
 <a:Name>ModeleOrienteObjet_1</a:Name>
 <a:Code>ModeleOrienteObjet_1</a:Code>
@@ -3955,10 +1565,10 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:AssociationSymbol Id="o7">
+<o:AssociationSymbol Id="o6">
 <a:CreationDate>1671786882</a:CreationDate>
 <a:ModificationDate>1671786882</a:ModificationDate>
-<a:Rect>((-11663,10869), (32,12816))</a:Rect>
+<a:Rect>((-11663,10876), (32,12823))</a:Rect>
 <a:ListOfPoints>((-11263,11850),(-368,11850))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -3967,16 +1577,16 @@ Shadow=0</a:DisplayPreferences>
 <a:FontList>CENTER 0 Arial,8,N
 SOURCE 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ClassSymbol Ref="o8"/>
+<o:ClassSymbol Ref="o7"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o9"/>
+<o:ClassSymbol Ref="o8"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Association Ref="o10"/>
+<o:Association Ref="o9"/>
 </c:Object>
 </o:AssociationSymbol>
-<o:AssociationClassLinkSymbol Id="o11">
+<o:AssociationClassLinkSymbol Id="o10">
 <a:CreationDate>1671786922</a:CreationDate>
 <a:ModificationDate>1671786922</a:ModificationDate>
 <a:Rect>((-6216,3449), (-5415,12250))</a:Rect>
@@ -3987,16 +1597,16 @@ SOURCE 0 Arial,8,N</a:FontList>
 <a:DashStyle>2</a:DashStyle>
 <a:ShadowColor>12632256</a:ShadowColor>
 <c:SourceSymbol>
-<o:AssociationSymbol Ref="o7"/>
+<o:AssociationSymbol Ref="o6"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o12"/>
+<o:ClassSymbol Ref="o11"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:AssociationClassLink Ref="o13"/>
+<o:AssociationClassLink Ref="o12"/>
 </c:Object>
 </o:AssociationClassLinkSymbol>
-<o:ClassSymbol Id="o8">
+<o:ClassSymbol Id="o7">
 <a:CreationDate>1671786212</a:CreationDate>
 <a:ModificationDate>1671786212</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -4016,10 +1626,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o14"/>
+<o:Class Ref="o13"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o9">
+<o:ClassSymbol Id="o8">
 <a:CreationDate>1671786223</a:CreationDate>
 <a:ModificationDate>1671786244</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -4039,10 +1649,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o15"/>
+<o:Class Ref="o14"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o12">
+<o:ClassSymbol Id="o11">
 <a:CreationDate>1671786922</a:CreationDate>
 <a:ModificationDate>1671786922</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -4062,17 +1672,17 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o16"/>
+<o:Class Ref="o15"/>
 </c:Object>
 </o:ClassSymbol>
 </c:Symbols>
 </o:ClassDiagram>
 </c:ClassDiagrams>
 <c:DefaultDiagram>
-<o:ClassDiagram Ref="o6"/>
+<o:ClassDiagram Ref="o5"/>
 </c:DefaultDiagram>
 <c:Classes>
-<o:Class Id="o14">
+<o:Class Id="o13">
 <a:ObjectID>B7FCB071-50A0-47E0-981A-404356B1A005</a:ObjectID>
 <a:Name>Acteur</a:Name>
 <a:Code>Acteur</a:Code>
@@ -4082,7 +1692,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>simplon</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o17">
+<o:Attribute Id="o16">
 <a:ObjectID>71E886E7-7928-4631-8028-7C9878CF703D</a:ObjectID>
 <a:Name>numAct</a:Name>
 <a:Code>numAct</a:Code>
@@ -4094,7 +1704,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 <a:Multiplicity>1..1</a:Multiplicity>
 </o:Attribute>
-<o:Attribute Id="o18">
+<o:Attribute Id="o17">
 <a:ObjectID>BF26F7DB-0FB1-4D7C-A3D9-DF052013C247</a:ObjectID>
 <a:Name>nomAct</a:Name>
 <a:Code>nomAct</a:Code>
@@ -4107,7 +1717,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
-<o:Identifier Id="o19">
+<o:Identifier Id="o18">
 <a:ObjectID>10DCE640-5F2F-49D9-804C-8DA836CAF475</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>Identifiant_1</a:Code>
@@ -4116,10 +1726,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1671786435</a:ModificationDate>
 <a:Modifier>simplon</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o17"/>
+<o:Attribute Ref="o16"/>
 </c:Identifier.Attributes>
 </o:Identifier>
-<o:Identifier Id="o20">
+<o:Identifier Id="o19">
 <a:ObjectID>9EF1F39F-F4AF-422D-9C67-FCFC0EFEA9C3</a:ObjectID>
 <a:Name>Identifiant_2</a:Name>
 <a:Code>Identifiant_2</a:Code>
@@ -4128,15 +1738,15 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1671786435</a:ModificationDate>
 <a:Modifier>simplon</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o17"/>
+<o:Attribute Ref="o16"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o20"/>
+<o:Identifier Ref="o19"/>
 </c:PrimaryIdentifier>
 </o:Class>
-<o:Class Id="o15">
+<o:Class Id="o14">
 <a:ObjectID>4A86F785-7D68-404B-8EB9-69A0575BCDCE</a:ObjectID>
 <a:Name>Flim</a:Name>
 <a:Code>Flim</a:Code>
@@ -4146,7 +1756,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>simplon</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o21">
+<o:Attribute Id="o20">
 <a:ObjectID>9E77FAA5-4871-4E52-BCD3-0A5A3E6A098B</a:ObjectID>
 <a:Name>numFilm</a:Name>
 <a:Code>numFilm</a:Code>
@@ -4157,7 +1767,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o22">
+<o:Attribute Id="o21">
 <a:ObjectID>385C2CBD-4ECF-47A4-9657-6468B6C00B4A</a:ObjectID>
 <a:Name>titre</a:Name>
 <a:Code>titre</a:Code>
@@ -4170,7 +1780,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
-<o:Identifier Id="o23">
+<o:Identifier Id="o22">
 <a:ObjectID>FAF3C491-499C-41EC-8BBC-46015E9F52D4</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>Identifiant_1</a:Code>
@@ -4179,15 +1789,15 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1671786475</a:ModificationDate>
 <a:Modifier>simplon</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o21"/>
+<o:Attribute Ref="o20"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o23"/>
+<o:Identifier Ref="o22"/>
 </c:PrimaryIdentifier>
 </o:Class>
-<o:Class Id="o16">
+<o:Class Id="o15">
 <a:ObjectID>47B7F542-1674-44AF-9381-F7D8CCCA2B7F</a:ObjectID>
 <a:Name>Jouer</a:Name>
 <a:Code>Jouer</a:Code>
@@ -4197,7 +1807,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>simplon</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o24">
+<o:Attribute Id="o23">
 <a:ObjectID>A9D89FE1-7056-44AB-8C07-6A5A843BD6B4</a:ObjectID>
 <a:Name>role</a:Name>
 <a:Code>role</a:Code>
@@ -4212,7 +1822,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Class>
 </c:Classes>
 <c:Associations>
-<o:Association Id="o10">
+<o:Association Id="o9">
 <a:ObjectID>8744A10C-7A6D-43EF-A927-C7216EBE5189</a:ObjectID>
 <a:Name>Association_1</a:Name>
 <a:Code>association1</a:Code>
@@ -4228,30 +1838,30 @@ LABL 0 Arial,8,N</a:FontList>
 
 </a:ExtendedAttributesText>
 <c:Object1>
-<o:Class Ref="o15"/>
+<o:Class Ref="o14"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o14"/>
+<o:Class Ref="o13"/>
 </c:Object2>
 </o:Association>
 </c:Associations>
 <c:AssociationClassLinks>
-<o:AssociationClassLink Id="o13">
+<o:AssociationClassLink Id="o12">
 <a:ObjectID>27D7EA4F-6E8E-442B-83D3-8EA20DA4F08E</a:ObjectID>
 <a:CreationDate>1671786922</a:CreationDate>
 <a:Creator>simplon</a:Creator>
 <a:ModificationDate>1671786922</a:ModificationDate>
 <a:Modifier>simplon</a:Modifier>
 <c:Object1>
-<o:Class Ref="o16"/>
+<o:Class Ref="o15"/>
 </c:Object1>
 <c:Object2>
-<o:Association Ref="o10"/>
+<o:Association Ref="o9"/>
 </c:Object2>
 </o:AssociationClassLink>
 </c:AssociationClassLinks>
 <c:TargetModels>
-<o:TargetModel Id="o25">
+<o:TargetModel Id="o24">
 <a:ObjectID>011D373D-D86B-4664-AED1-29ED36CD93B1</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
@@ -4264,10 +1874,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
 <a:TargetModelLastModificationDate>1202823188</a:TargetModelLastModificationDate>
 <c:SessionShortcuts>
-<o:Shortcut Ref="o4"/>
+<o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o26">
+<o:TargetModel Id="o25">
 <a:ObjectID>21CF0FF1-623B-4233-8788-C3FD2E9A127B</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
@@ -4280,23 +1890,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>
 <a:TargetModelLastModificationDate>1096028631</a:TargetModelLastModificationDate>
 <c:SessionShortcuts>
-<o:Shortcut Ref="o5"/>
-</c:SessionShortcuts>
-</o:TargetModel>
-<o:TargetModel Id="o27">
-<a:ObjectID>0995B98F-017A-4322-A5FD-78ADD448A6E9</a:ObjectID>
-<a:Name>ModeleOrienteObjet_1</a:Name>
-<a:Code>MODELEORIENTEOBJET_1</a:Code>
-<a:CreationDate>1671787499</a:CreationDate>
-<a:Creator>simplon</a:Creator>
-<a:ModificationDate>1671804016</a:ModificationDate>
-<a:Modifier>simplon</a:Modifier>
-<a:TargetModelURL>file:///C|/Users/simplon/Documents/gaetan/conception/ModeleOrienteObjet_1.mpd</a:TargetModelURL>
-<a:TargetModelID>AFF56C76-4BD8-499B-9FF5-267D46FDD526</a:TargetModelID>
-<a:TargetModelClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetModelClassID>
-<a:TargetModelLastModificationDate>1671787778</a:TargetModelLastModificationDate>
-<c:SessionShortcuts>
-<o:Shortcut Ref="o3"/>
+<o:Shortcut Ref="o4"/>
 </c:SessionShortcuts>
 </o:TargetModel>
 </c:TargetModels>
